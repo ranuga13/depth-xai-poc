@@ -48,6 +48,14 @@ data/annotations/
 # Experiment outputs
 results/*
 !results/batch_validation/
+results/batch_validation/target_*.png
+!results/batch_validation/target_68.png
+!results/batch_validation/target_148.png
+!results/batch_validation/target_533.png
+!results/batch_validation/target_743.png
+!results/batch_validation/target_918.png
+!results/batch_validation/target_1470.png
+!results/batch_validation/target_1873.png
 results/batch_validation/* copy.txt
 runs/
 outputs/
