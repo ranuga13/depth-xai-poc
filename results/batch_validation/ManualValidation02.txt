@@ -1,0 +1,70 @@
+-----------FORMAT---------------
+Target ID: 68
+
+1. Green + Blue boxes same car? Yes / No
+2. Red target mask correct? Yes / No
+3. Yellow occluder really in front? Yes / No
+4. Blue context looks correct? Yes / No
+
+Overall: Valid / Invalid
+Notes: __________________
+
+--------------------------------
+
+
+
+Target 68
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 148
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes: 
+
+Target 533
+Boxes: Yes
+Target mask: Yes
+Occluder:Yes
+Context: Yes
+Overall: Valid
+Notes: The size of the occluder is considerably large. And way larger than the blue context.
+
+Target 743
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes: The occluder is also heavily occluded by the car infront, and the visible part of the occluder is small.
+
+Target 918
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes: 
+
+Target 1470
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes: The occluder was identified accurately when occluder-selection logic was improved
+
+Target 1873
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes: The occluder was identified accurately when occluder-selection logic was improved

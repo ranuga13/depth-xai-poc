@@ -46,7 +46,9 @@ data/images/
 data/annotations/
 
 # Experiment outputs
-results/
+results/*
+!results/batch_validation/
+results/batch_validation/* copy.txt
 runs/
 outputs/
 logs/
