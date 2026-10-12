@@ -47,8 +47,16 @@ data/annotations/
 
 # Experiment outputs
 results/*
-!results/batch_validation/
-results/batch_validation/* copy.txt
+!results/**/
+!results/**/*
+results/**/*.[pP][nN][gG]
+results/**/*.[jJ][pP][gG]
+results/**/*.[jJ][pP][eE][gG]
+results/**/*.[gG][iI][fF]
+results/**/*.[bB][mM][pP]
+results/**/*.[wW][eE][bB][pP]
+results/**/*.[tT][iI][fF]
+results/**/*.[tT][iI][fF][fF]
 runs/
 outputs/
 logs/
