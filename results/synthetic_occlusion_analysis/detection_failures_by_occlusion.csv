@@ -1,0 +1,5 @@
+synthetic_occlusion_percent,num_detection_failures
+10.0,0
+30.0,6
+50.0,15
+70.0,25
