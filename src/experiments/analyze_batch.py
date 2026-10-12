@@ -7,7 +7,7 @@ from pathlib import Path
 # Configuration
 # ==========================================================
 
-INPUT_CSV = "results/batch_results.csv"
+INPUT_CSV = "results/batch_results_validated.csv"
 
 OUTPUT_DIR = Path(
     "results/aggregate_analysis"

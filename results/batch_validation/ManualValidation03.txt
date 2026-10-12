@@ -1,0 +1,294 @@
+-----------FORMAT---------------
+Target ID: 68
+
+1. Green + Blue boxes same car? Yes / No
+2. Red target mask correct? Yes / No
+3. Yellow occluder really in front? Yes / No
+4. Blue context looks correct? Yes / No
+
+Overall: Valid / Invalid
+Notes: __________________
+
+--------------------------------
+
+
+
+Target 2977
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3088
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3264
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3312
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3500
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3501
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3502
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 3529
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4042
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4083
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4292
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4293
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4492
+Boxes: No
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4551
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4581
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 4900
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 5085
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 5213
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 5536
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 5605
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6000
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6030
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6142
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6507
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6648
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6667
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 6729
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7029
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7149
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7259
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7354
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7367
+Boxes: No
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes: Green box is correct, red box points to the bigger van behind it.
+
+Target 7543
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7544
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
+
+Target 7604
+Boxes: Yes
+Target mask: Yes
+Occluder: Yes
+Context: Yes
+Overall: Valid
+Notes:
