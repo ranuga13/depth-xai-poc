@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 
-INPUT_CSV = "results/batch_results.csv"
+INPUT_CSV = "results/batch_results_validated.csv"
 
 OUTPUT_DIR = Path(
     "results/per_target_analysis"
