@@ -46,17 +46,7 @@ data/images/
 data/annotations/
 
 # Experiment outputs
-results/*
-!results/**/
-!results/**/*
-results/**/*.[pP][nN][gG]
-results/**/*.[jJ][pP][gG]
-results/**/*.[jJ][pP][eE][gG]
-results/**/*.[gG][iI][fF]
-results/**/*.[bB][mM][pP]
-results/**/*.[wW][eE][bB][pP]
-results/**/*.[tT][iI][fF]
-results/**/*.[tT][iI][fF][fF]
+results/
 runs/
 outputs/
 logs/
