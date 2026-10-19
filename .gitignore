@@ -65,6 +65,7 @@ results/**/*.[tT][iI][fF][fF]
 !results/batch_validation/target_1470.png
 !results/batch_validation/target_1873.png
 results/batch_validation/* copy.txt
+results/depth_batch/
 runs/
 outputs/
 logs/
