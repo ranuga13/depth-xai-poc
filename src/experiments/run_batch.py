@@ -21,7 +21,7 @@ IMAGE_DIR = "data/images/training/image_2"
 
 MODEL_PATH = "yolo11n.pt"
 
-NUM_TARGETS = 10
+NUM_TARGETS = 50
 MATCH_IOU_THRESHOLD = 0.30
 
 

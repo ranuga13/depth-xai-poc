@@ -18,28 +18,88 @@ def polygon_to_mask(segmentation, height, width):
 
 def find_foreground_occluder(
     target_annotation,
-    image_annotations
+    image_annotations,
+    height,
+    width,
+    min_overlap_pixels=10
 ):
     target_oco_id = target_annotation["oco_id"]
     target_ico_id = target_annotation["ico_id"]
 
-    candidates = [
-        ann
-        for ann in image_annotations
-        if ann["oco_id"] == target_oco_id
-        and ann["ico_id"] < target_ico_id
-    ]
+    # Full target shape
+    target_amodal_mask = polygon_to_mask(
+        target_annotation["a_segm"],
+        height,
+        width
+    )
+
+    # Visible target shape
+    target_visible_mask = polygon_to_mask(
+        target_annotation["i_segm"],
+        height,
+        width
+    )
+
+    # The part of the target that is hidden
+    target_hidden_mask = (
+        target_amodal_mask
+        & ~target_visible_mask
+    )
+
+    candidates = []
+
+    for ann in image_annotations:
+
+        if ann["id"] == target_annotation["id"]:
+            continue
+
+        # Must belong to the same occlusion group
+        if ann["oco_id"] != target_oco_id:
+            continue
+
+        # Must be in front of the target
+        if ann["ico_id"] >= target_ico_id:
+            continue
+
+        candidate_visible_mask = polygon_to_mask(
+            ann["i_segm"],
+            height,
+            width
+        )
+
+        # How much of this candidate lies over
+        # the hidden part of the target?
+        overlap_pixels = (
+            candidate_visible_mask
+            & target_hidden_mask
+        ).sum()
+
+        if overlap_pixels < min_overlap_pixels:
+            continue
+
+        candidates.append(
+            {
+                "annotation": ann,
+                "overlap_pixels": int(
+                    overlap_pixels
+                )
+            }
+        )
 
     if not candidates:
         return None
 
-    # Choose the closest object in front
-    occluder = max(
+    # Prefer the candidate that actually covers
+    # the largest amount of hidden target area.
+    best_candidate = max(
         candidates,
-        key=lambda ann: ann["ico_id"]
+        key=lambda item: (
+            item["overlap_pixels"],
+            item["annotation"]["ico_id"]
+        )
     )
 
-    return occluder
+    return best_candidate["annotation"]
 
 
 def create_context_mask(
@@ -107,8 +167,10 @@ def build_scene_roles(
     )
 
     occluder_annotation = find_foreground_occluder(
-        target_annotation,
-        image_annotations
+        target_annotation=target_annotation,
+        image_annotations=image_annotations,
+        height=height,
+        width=width
     )
 
     if occluder_annotation is not None:
