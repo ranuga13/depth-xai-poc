@@ -1,0 +1,7 @@
+role,perturbation_type,samples,paired_confidence_samples,mean_abs_confidence_difference,median_abs_confidence_difference,mean_bbox_iou_difference,survival_agreement_percent
+context,blur,38,38,0.0,0.0,0.0,100.0
+context,mask,38,37,0.0,0.0,0.0,100.0
+occluder,blur,38,36,0.0,0.0,0.0,100.0
+occluder,mask,38,37,0.0,0.0,0.0,100.0
+target,blur,38,32,0.0,0.0,0.0,100.0
+target,mask,38,30,0.0,0.0,0.0,100.0
